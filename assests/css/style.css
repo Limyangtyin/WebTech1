@@ -1,15 +1,22 @@
 @media screen and (max-width: 768px){
     .headerclass{
-        border: 1px black;
+        border: 1px solid black;
         background-color: slategrey;
     }
     main{
-        border: 2px black;
+        border: 2px solid black;
         background-color: darkkhaki;
     }
 
     .footerclass{
-        border: 1px black;
+        border: 1px solid black;
         background-color: cornflowerblue;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .headerclass{
+        border: 1px solid darkred;
+        background-color: lightcoral;
     }
 }
