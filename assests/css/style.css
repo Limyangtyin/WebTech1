@@ -7,4 +7,9 @@
         border: 2px black;
         background-color: darkkhaki;
     }
+
+    .footerclass{
+        border: 1px black;
+        background-color: cornflowerblue;
+    }
 }
