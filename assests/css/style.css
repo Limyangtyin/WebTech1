@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1200px){
     .headerclass{
         border: 1px solid black;
         background-color: slategrey;
@@ -18,9 +18,10 @@
         border: 1px solid greenyellow;
         background-color: lightpink;
     }
+
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
     .headerclass {
         border: 1px solid darkred;
         background-color: lightcoral;
@@ -34,6 +35,7 @@
 
     main {
         display: grid;
+        grid-template-columns: 1fr auto;
         border: 2px solid black;
         background-color: lightblue;
     }
@@ -43,15 +45,23 @@
         background-color: lightsalmon;
     }
 
-    .flex-container {
+    .grid-container {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: auto auto auto;
+        padding-top: 80px;
     }
 
     main > article {
         border: 1px solid black;
         margin: 10px;
         padding: 20px;
-        width: 33%;
+        width: auto;
     }
+
+    aside{
+        grid-column: 3;
+        grid-row: 1/span 3;
+    }
+
+
 }
