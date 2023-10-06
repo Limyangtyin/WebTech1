@@ -1,22 +1,22 @@
 @media screen and (max-width: 1200px){
     .headerclass{
         border: 1px solid black;
-        background-color: #666666;
+        background-color: #F1DB4B;
     }
     main{
         border: 2px solid black;
-        background-color: #cccccc;
+        background-color: #9EB25D;
     }
 
     .footerclass{
         border: 1px solid black;
-        background-color: #999999;
+        background-color: #A7C6DA;
     }
 
     main>article{
         padding: 20px;
         border: 1px solid black;
-        background-color: #cccccc;
+        background-color: #EEFCCE;
     }
 
     nav, aside{
@@ -27,7 +27,7 @@
 @media screen and (min-width: 1200px) {
     .headerclass {
         border: 1px solid black;
-        background-color: #cccccc;
+        background-color: #F1DB4B;
     }
 
     nav > a {
@@ -40,12 +40,12 @@
         display: grid;
         grid-template-columns: 1fr auto;
         border: 2px solid black;
-        background-color: #cccccc;
+        background-color: #9EB25D;
     }
 
     .footerclass {
         border: 1px solid black;
-        background-color: #cccccc;
+        background-color: #A7C6DA;
     }
 
     .grid-container {
@@ -59,6 +59,7 @@
         margin: 10px;
         padding: 20px;
         width: auto;
+        background-color: #EEFCCE;
     }
 
     aside{
