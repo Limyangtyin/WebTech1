@@ -3,3 +3,5 @@ evidence/
 .idea/
 .idea/*
 .idea/**
+
+node_modules/
